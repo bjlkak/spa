@@ -1,0 +1,23 @@
+:host {
+    
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(214, 214, 214);
+}
+.small-title {
+    display: flex;
+    background-color: #ff232f
+}
+h1{
+    font-size:60px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+span {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}

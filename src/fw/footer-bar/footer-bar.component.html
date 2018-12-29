@@ -1,0 +1,11 @@
+
+
+<a *ngFor="let icon of frameworkConfigService.socialIcons"
+  [href] = "icon.link"
+  [title] = "icon.alt"
+  >
+  <img 
+    [src] = "icon.icon"
+    [alt] = "icon.alt" width="40px" height="40px" style="margin-right:15px">
+</a>
+

@@ -1,0 +1,16 @@
+:host{
+    background-color: rgb(214, 214, 214);
+}
+
+hr.style5 {
+	border-top: 1px solid #8c8b8b;
+}
+
+:host(.vertical-menu) {
+    display:inline-block;
+    width:200px;
+    padding:4px;
+    flex-grow:0;
+    background-color: #555;
+    overflow: auto;
+}
