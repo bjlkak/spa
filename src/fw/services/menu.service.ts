@@ -3,7 +3,8 @@ import { Injectable } from '@angular/core';
 export interface MenuItem {
     text: string,
     route: string,
-    submenu: Array<MenuItem>
+    submenu: Array<MenuItem>,
+    icon: string
 }
 
 @Injectable()

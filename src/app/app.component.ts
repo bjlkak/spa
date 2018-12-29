@@ -9,8 +9,8 @@ import { initialMenuItems } from './app.menu';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor (private frameworkConfigService: FrameworkConfigService,
-               private menuService : MenuService) {
+  constructor (public frameworkConfigService: FrameworkConfigService,
+                public menuService : MenuService) {
     let config:FrameworkConfigSettings = {
       socialIcons: [
         { icon: '../assets/instagram.png', alt: "Instagram", link: 'http://instagram.com'},

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScreenService } from '../services/screen.service';
 import { MenuService } from '../services/menu.service';
-import {Router} from '@angular/router'
 
 @Component({
   selector: 'fw-title-bar',
@@ -11,14 +10,8 @@ import {Router} from '@angular/router'
 export class TitleBarComponent implements OnInit {
 
   constructor(private screenService: ScreenService,
-              private menuService: MenuService,
-              private router: Router) { }
+              private menuService: MenuService) { }
 
   ngOnInit() {
   }
-
-  /*routing() {
-    this.router.navigate(['./home']);
-  }*/
-
 }

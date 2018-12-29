@@ -4,21 +4,25 @@ export let initialMenuItems: Array<MenuItem> = [
     {
         text: 'Project 1',
         route: '/p1',
-        submenu: null
+        submenu: null,
+        icon: null
     },
     {
         text: 'Project 2',
         route: '/p2',
-        submenu: null
+        submenu: null,
+        icon: null
     },
     {
         text: 'Project 3',
         route: '/p3',
-        submenu: null
+        submenu: null,
+        icon: null
     },
     {
         text: 'Resume',
         route: '/resume',
-        submenu: null
+        submenu: null,
+        icon: null
     }
 ];
