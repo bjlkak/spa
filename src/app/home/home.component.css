@@ -29,6 +29,7 @@ body {
     padding: 0;
     margin-bottom: 30px;
     border: none;
+    background-color: rgb(214, 214, 214);
 }
 
 .tz-gallery img {

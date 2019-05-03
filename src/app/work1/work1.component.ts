@@ -1,5 +1,6 @@
-import { Component, ElementRef, ViewChild, Input, OnInit } from '@angular/core'
-import * as baguettebox from 'node_modules/baguettebox.js'
+import { Component, ElementRef, ViewChild, Input, OnInit } from '@angular/core';
+import * as baguettebox from 'node_modules/baguettebox.js';
+import data from '../../assets/WWT/WWT.json';
 
 @Component({
   selector: 'app-work1',
@@ -29,5 +30,14 @@ export class Work1Component implements OnInit {
     baguettebox.run('.tz-gallery');
   }
 
+  getFilePath() {
+    var path = data.img; 
+    var foo:string[] = [];
+    path.forEach(function(value) {
+      foo.push("../../assets/WWT/" + value);
+    });
+    
+    return foo;
+  }
 }
 
