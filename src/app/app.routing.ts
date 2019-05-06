@@ -12,12 +12,6 @@ export const appRoutes: Routes = [
   { path: 'p2', component: Work2Component },
   { path: 'p3', component: Work3Component },
   { path: 'resume', component: HomeComponent },
-  { path: '', redirectTo: 'p1', pathMatch: 'full' },
-  { path: '**', redirectTo: 'p1', pathMatch: 'full' }
+  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
-
-@NgModule({
-  imports:[RouterModule.forRoot(appRoutes,{useHash:true})],
-  exports: [RouterModule]
-})
-export class AppModule{}
