@@ -2,7 +2,7 @@
     
     align-items: center; 
     justify-content: center;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(80, 80, 80);
 }
 .small-title {
     display: flex;
@@ -10,6 +10,8 @@
 }
 h1{
     font-size:60px;
+    font-family: "Roboto", sans-serif;
+    color: white;
 }
 img {
     height: auto;
@@ -21,3 +23,7 @@ span {
     font-size: 25px;
     line-height: 50px;
 }
+
+p {
+    padding: 50px;
+  }

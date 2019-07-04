@@ -9,7 +9,8 @@ import { Work2Component } from './work2/work2.component';
 import { Work3Component } from './work3/work3.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
-import { appRoutes } from './app.routing'
+import { appRoutes } from './app.routing';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { appRoutes } from './app.routing'
     FormsModule,
     FwModule,
     RouterModule.forRoot(appRoutes,{useHash:true}),
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

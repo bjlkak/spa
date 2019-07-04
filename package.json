@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^7.2.14",
     "@angular/router": "^7.2.14",
     "@types/node": "^8.10.48",
+    "angular-font-awesome": "^3.1.2",
     "angular-modal-gallery": "^5.7.1",
     "angular2-lightbox": "^1.4.1",
     "baguettebox.js": "^1.11.0",
