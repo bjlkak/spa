@@ -2,19 +2,19 @@ import { MenuItem } from '../fw/services/menu.service';
 
 export let initialMenuItems: Array<MenuItem> = [
     {
-        text: 'Project 1',
+        text: 'World War Toons',
         route: '/p1',
         submenu: null,
         icon: null
     },
     {
-        text: 'Project 2',
+        text: 'Stunt Corgi',
         route: '/p2',
         submenu: null,
         icon: null
     },
     {
-        text: 'Project 3',
+        text: 'MISC',
         route: '/p3',
         submenu: null,
         icon: null
