@@ -10,7 +10,6 @@ import { Work3Component } from './work3/work3.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routing';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     BrowserModule,
     FormsModule,
     FwModule,
-    RouterModule.forRoot(appRoutes,{useHash:true}),
-    AngularFontAwesomeModule
+    RouterModule.forRoot(appRoutes,{useHash:true})
   ],
   providers: [],
   bootstrap: [AppComponent]
