@@ -1,0 +1,19 @@
+.center {
+    text-align: center;
+}
+
+label { 
+    font-size: 17px; 
+    color: black
+}
+
+input {
+    width:500px;
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+.invalid-feedback {
+    color: red;
+}

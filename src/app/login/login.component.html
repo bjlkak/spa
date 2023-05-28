@@ -1,0 +1,20 @@
+<div class="center mx-auto ">
+  <form class="form" #f="ngForm">
+
+      
+    <div *ngIf="passwordInvalid == false" class="invalid-feedback">
+      <label for="password">Password is required</label>
+    </div>
+    <div *ngIf="passwordInvalid">
+      <label class="invalid-feedback" for="password">Password is incorrect</label>
+    </div>
+
+    <input type="password" [(ngModel)]="loginUserData.password" #password="ngModel" name="password" class="form-control rounded-0" required >
+
+    <br>
+
+    <button [disabled]= "!f.form.valid" type="button" (click)="loginUser()" class="btn btn-success float-right">
+      Submit
+    </button>
+  </form>
+</div>

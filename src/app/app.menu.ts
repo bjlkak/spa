@@ -14,8 +14,14 @@ export let initialMenuItems: Array<MenuItem> = [
         icon: null
     },
     {
-        text: 'Misc',
+        text: 'Others',
         route: '/p3',
+        submenu: null,
+        icon: null
+    },
+    {
+        text: 'Dreamworks',
+        route: '/p4',
         submenu: null,
         icon: null
     },
