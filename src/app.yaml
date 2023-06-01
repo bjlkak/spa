@@ -1,0 +1,21 @@
+runtime: python27
+api_version: '1'
+env: standard
+threadsafe: true
+instance_class: F1
+handlers:
+  - url: /
+    static_files: spa/index.html
+    upload: spa/index.html
+  - url: /(.*)
+    static_files: spa/\1
+    upload: spa/.*
+  - url: /.*
+    static_files: spa/index.html
+    upload: spa/index.html
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: automatic
+  min_pending_latency: automatic
+  max_pending_latency: automatic
+service_account: jaemin@appspot.gserviceaccount.com
