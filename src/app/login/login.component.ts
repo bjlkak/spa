@@ -10,7 +10,7 @@ import { AuthService } from '../auth.service';
 })
 export class LoginComponent implements OnInit {
   loginUserData: User = { password: '' };
-  allowedPassword = '1234';
+  allowedPassword = 'jcow';
   passwordInvalid = false;
   constructor(private _auth: AuthService, private router: Router) {}
   ngOnInit() {}

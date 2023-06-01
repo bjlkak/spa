@@ -1,26 +1,229 @@
-<!--<div *ngFor="let image of _albums; let i=index">
-    <img [src]="image.thumb" (click)="open(i)"/>
-  </div>-->
 
-  <div class="container gallery-container">
+<div class="container gallery-container">
 
-    <!--<p class="page-description text-center">Clean Layout With Minimal Styles</p>-->
-    
-    <div class="tz-gallery">
+    <!-- <p class="page-description text-center">concept arts</p> -->
 
-        <div class="row">
-
-            
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
-                    <a class="lightbox" href="../../assets/images/benches.jpg">
-                        <img src="../../assets/images/benches.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
+    <h2 style="font-size: 25px; font-family: Roboto, sans-serif; padding-bottom: 20px; color:white; text-align: center; font-style:italic">The Mighty Ones</h2>
+     
+     <div class="tz-gallery">
+ 
+         <div class="row fix">
+ 
+ <!--
+             <div *ngFor="let art of getFilePath()" class="thumbnail">
+                 <a class="lightbox" [href] = "art">
+                     <img [src] = "art" alt="">
+                 </a>
+             </div>-->
+ 
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/1.jpg">
+                         <img src="../../assets/TMO/1.jpg" alt="">
+                     </a>
+                 </div>
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/2.jpg">
+                         <img src="../../assets/TMO/2.jpg" alt="">
+                     </a>
+                 </div>
+             <div class="">
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/3.jpg">
+                         <img src="../../assets/TMO/3.jpg" alt="">
+                     </a>
+                 </div>
+             </div>
+             <div class="">
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/4.jpg">
+                         <img src="../../assets/TMO/4.jpg" alt="">
+                     </a>
+                 </div>
+             </div>
+             <div class="">
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/5.jpg">
+                         <img src="../../assets/TMO/5.jpg" alt="">
+                     </a>
+                 </div>
+             </div>
+             <div class="">
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/6.jpg">
+                         <img src="../../assets/TMO/6.jpg" alt="">
+                     </a>
+                 </div>
+             </div>
+             <div class="">
+                 <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                     <a class="lightbox" href="../../assets/TMO/7.jpg">
+                         <img src="../../assets/TMO/7.jpg" alt="">
+                     </a>
+                 </div>
+             </div>
+             <div class="">
+               <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                   <a class="lightbox" href="../../assets/TMO/8.jpg">
+                       <img src="../../assets/TMO/8.jpg" alt="">
+                   </a>
+               </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/9.jpg">
+                     <img src="../../assets/TMO/9.jpg" alt="">
+                 </a>
+             </div>
+         </div>
+         <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/10.jpg">
+                     <img src="../../assets/TMO/10.jpg" alt="">
+                 </a>
+             </div>
+         </div>
+         <div class="">
+           <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+               <a class="lightbox" href="../../assets/TMO/11.jpg">
+                   <img src="../../assets/TMO/11.jpg" alt="">
+               </a>
+           </div>
+         </div>
+         <div class="">
+           <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+               <a class="lightbox" href="../../assets/TMO/12.jpg">
+                   <img src="../../assets/TMO/12.jpg" alt="">
+               </a>
+           </div>
+         </div>
+         <div class="">
+           <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+               <a class="lightbox" href="../../assets/TMO/13.jpg">
+                   <img src="../../assets/TMO/13.jpg" alt="">
+               </a>
+           </div>
+         </div>
+         <div class="">
+           <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+               <a class="lightbox" href="../../assets/TMO/14.jpg">
+                   <img src="../../assets/TMO/14.jpg" alt="">
+               </a>
+           </div>
+         </div>
+        <div class="">
+           <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+               <a class="lightbox" href="../../assets/TMO/15.jpg">
+                   <img src="../../assets/TMO/15.jpg" alt="">
+               </a>
+           </div>
+         </div>
+         <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/16.jpg">
+                     <img src="../../assets/TMO/16.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/17.jpg">
+                     <img src="../../assets/TMO/17.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+          <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/18.jpg">
+                     <img src="../../assets/TMO/18.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/19.jpg">
+                     <img src="../../assets/TMO/19.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/20.jpg">
+                     <img src="../../assets/TMO/20.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/21.jpg">
+                     <img src="../../assets/TMO/21.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/22.jpg">
+                     <img src="../../assets/TMO/22.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/23.jpg">
+                     <img src="../../assets/TMO/23.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/24.jpg">
+                     <img src="../../assets/TMO/24.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/25.jpg">
+                     <img src="../../assets/TMO/25.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/26.jpg">
+                     <img src="../../assets/TMO/26.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/27.jpg">
+                     <img src="../../assets/TMO/27.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/28.jpg">
+                     <img src="../../assets/TMO/28.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/29.jpg">
+                     <img src="../../assets/TMO/29.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+           <div class="">
+             <div class="thumbnail" style="background-color:rgb(80, 80, 80)">
+                 <a class="lightbox" href="../../assets/TMO/30.jpg">
+                     <img src="../../assets/TMO/30.jpg" alt="">
+                 </a>
+             </div>
+           </div>
+       </div>
+ 
+     </div>
+ 
+ </div>

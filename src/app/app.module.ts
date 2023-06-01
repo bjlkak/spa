@@ -9,6 +9,7 @@ import { Work1Component } from './work1/work1.component';
 import { Work2Component } from './work2/work2.component';
 import { Work3Component } from './work3/work3.component';
 import { Work4Component } from './work4/work4.component';
+import { Work5Component } from './work5/work5.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
@@ -25,6 +26,7 @@ import { appRoutes } from './app.routing';
     Work2Component,
     Work3Component,
     Work4Component,
+    Work5Component,
     LoginComponent,
     LogoutComponent,
     HomeComponent
