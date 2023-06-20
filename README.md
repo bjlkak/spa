@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+nvm install 14
+npm install
+npm install @angular/cli@7
+npm install @angular/core@7
+ng build
+move app.yaml to dist
+gcloud app deploy
